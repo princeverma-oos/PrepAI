@@ -1,0 +1,69 @@
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# API Keys & Secrets
+# ========================
+# Never commit real credentials — copy .env.example → .env and fill in your values
+.env
+.env.local
+.env.*.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+
+# Secret / credential files
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+service-account*.json
+*secret*
+*credential*
+*api-key*
+*apikey*
